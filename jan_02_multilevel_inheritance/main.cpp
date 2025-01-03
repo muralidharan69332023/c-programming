@@ -54,7 +54,7 @@ class MyChild: public MyClass {
 };
 
 // Grandchild class
-class MyGrandChild: public MyClass{
+class MyGrandChild: public MyChild{
 };
 
 int main() {
