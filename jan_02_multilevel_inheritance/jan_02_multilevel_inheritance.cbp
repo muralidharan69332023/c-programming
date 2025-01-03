@@ -27,6 +27,19 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="jan_03_multiple_inheritance">
+				<Option output="bin/jan_03_multiple_inheritance/jan_02_multilevel_inheritance" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/jan_03_multiple_inheritance/" />
+				<Option object_output="obj/jan_03_multiple_inheritance/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
